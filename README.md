@@ -9,5 +9,5 @@ install nmp
 ### screenshots
 
 ![Screenshot](./img/printscr1.JPG)
-![Screenshot](./img/printscr2.JPG)
+
 ![Screenshot](./img/printscr3.JPG)
