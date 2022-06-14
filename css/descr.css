@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-family: "Kalam";
+  outline: none;
+}
+
+body {
+  margin: 0;
+  /*background-color: rgba(220, 158, 245, 0.678);*/
+  background-image: url(../img/blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: rgb(0, 225, 255);
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  font-size: 20px;
+  color: white;
+}
+
+strong {
+    color: rgb(0, 217, 255);
+    font-size: 24px;
+
+    
+}
