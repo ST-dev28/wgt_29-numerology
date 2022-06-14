@@ -14,11 +14,13 @@ h1 {
   letter-spacing: 1px;
   font-size: 3em;
   font-style: italic;
-  color: rgb(120, 1, 255);
+  /*color: rgb(120, 1, 255);*/
+  color: rgb(247, 0, 255);
 }
 
 a {
-  color: rgb(66, 3, 138);
+  /*color: rgb(66, 3, 138);*/
+  color: rgb(247, 0, 255);
   font-weight: bold;
   border: 3px solid rgba(255, 165, 0, 0);
   padding: 0 5px;
@@ -28,6 +30,7 @@ a {
 
 a.highlight {
   border: 4px solid rgb(247, 0, 255);
+  border: 4px solid whitesmoke;
   transition: border 0.5s;
 }
 
@@ -43,7 +46,8 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding-top: -100px;
-  background-image: url(../img/purple-flowers.jpg);
+  /*background-image: url(../img/purple-flowers.jpg);*/
+    background-image: url(../img/purple-space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -73,7 +77,8 @@ a:hover {
 }
 .main-form label {
   align-self: flex-end;
-  color: rgb(119, 7, 248);
+  /*color: rgb(119, 7, 248);*/
+  color: rgb(247, 0, 255);
   font-size: 20px;
 }
 
@@ -142,13 +147,16 @@ li.show {
   width: 100%;
   border-bottom: 3px dashed rgb(117, 1, 250);
   transition: all 1s;
-  color: rgb(66, 3, 138);
+  /*color: rgb(66, 3, 138);*/
+  color: rgb(247, 0, 255);
+  /*color: rgb(253, 4, 212);*/
 }
 
 .signature {
   align-self: flex-end;
   padding-right: 10px;
   height: 5vh;
+  font-size: 18px;
 }
 
 @media all and (max-width: 750px) {
