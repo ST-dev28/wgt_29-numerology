@@ -29,9 +29,18 @@
         personality: "descr.html"
     };
 
+    //The static String.fromCharCode() method returns a string created from the specified sequence of UTF-16 code units.
+    // % -> no fractions
+
     for (let i = 0; i < 26; i++) {
         charToVal[String.fromCharCode("a".charCodeAt(0) + i)] = i % 9 + 1;
     }
+
+    /*The localStorage object stores data with no expiration date.
+    The data is not deleted when the browser is closed, and are available for future sessions.
+    The getItem() method returns value of the specified Storage Object item.
+    The getItem() method belongs to the Storage Object, which can be either a localStorage 
+    object or a sessionStorage object.*/
 
     if (localStorage.getItem("name")) {
         name.value = localStorage.getItem("name");
@@ -57,11 +66,17 @@
         return reduceNumber(result);
     }
 
+    //converts its first argument to a string, parses that string, then returns an integer or NaN
     function calculateLifePath(birthdate) {
         const [year, month, day] = birthdate.split("-");
         const sum = parseInt(year) + parseInt(month) + parseInt(day);
         return reduceNumber(sum);
     }
+
+    /*It's regular expression. "[aeiou]" tells the replace function to look for any of these 
+    characters and "gi" are flags that tells the function to look for match over the entire 
+    string (will otherwise break at the first match), this is the "g" flag. And the "i" flag 
+    tells it to match case insensitively. So, it would also match, A , E and so on.*/
 
     function calculateSoulUrge(fullName) {
         const regexp = /[aeiou]/gi;
@@ -104,10 +119,11 @@
             num += digit % 10;
             digit = Math.floor(digit / 10);
         }
-
         return reduceNumber(num);
     }
 
+    // The preventDefault() method cancels the event if it is cancelable, 
+    // meaning that the default action that belongs to the event will not occur.
     function doCalculations(e) {
         e.preventDefault();
 
@@ -148,7 +164,6 @@
                 }, delayDuration + 250);
             }, delayDuration * index);
         });
-
         scrollToResults();
     }
 
@@ -211,6 +226,8 @@
             return isValid;
         }
 
+
+        // validations
         const [year, month, day] = date.value.split("-");
         const yearRegExp = new RegExp(/^\d{4}$/, "g");
         const monthAndDayRegExp = new RegExp(/^\d{2}$/, "g");
@@ -224,7 +241,6 @@
             dateError.classList.add("error-show");
             isValid = false;
         }
-
         return isValid;
     }
 
