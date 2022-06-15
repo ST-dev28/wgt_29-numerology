@@ -85,7 +85,7 @@ a:hover {
   padding: 10px;
   height: 90px;
   font-size: 1.8em;
-  background: white;
+  background: rgba(255, 255, 255, 0.733);
   /*border: none;*/
   color: rgb(120, 1, 255);
   border: 2px solid rgb(228, 227, 227);
