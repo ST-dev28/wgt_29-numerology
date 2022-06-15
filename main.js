@@ -199,6 +199,7 @@
         return text;
     }
 
+    // validations
     function validateInput(fullname) {
         nameError.innerHTML = "";
         dateError.innerHTML = "";
@@ -226,8 +227,6 @@
             return isValid;
         }
 
-
-        // validations
         const [year, month, day] = date.value.split("-");
         const yearRegExp = new RegExp(/^\d{4}$/, "g");
         const monthAndDayRegExp = new RegExp(/^\d{2}$/, "g");
