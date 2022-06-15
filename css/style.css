@@ -61,7 +61,7 @@ a:hover {
 .main-form input:not(#save) {
   width: 100%;
   padding: 50px;
-  border: none;
+ /*border: none;*/
   background: rgba(155, 76, 245, 0.705);
   text-transform: uppercase;
   min-height: 115px;
@@ -86,10 +86,11 @@ a:hover {
   height: 90px;
   font-size: 1.8em;
   background: white;
-  border: none;
+  /*border: none;*/
   color: rgb(120, 1, 255);
+  border: 2px solid rgb(228, 227, 227);
+  border-style: inset;
 }
-
 .main-form button:hover {
   cursor: pointer;
   background-color: violet;
@@ -153,8 +154,13 @@ li.show {
 
 
 @media all and (max-width: 900px) {
+  .main-form input:not(#save) {
+    min-height: 100px;
+  }
+
   .main-form input {
     font-size: 1.2em;
+    height: 15px;
   }
 
   .main-form button {
