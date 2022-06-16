@@ -149,7 +149,8 @@ li.show {
   align-self: flex-end;
   padding-right: 10px;
   height: 5vh;
-  font-size: 18px;
+  font-size: 20px;
+  color: white;
 }
 
 
