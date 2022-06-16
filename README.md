@@ -1,7 +1,7 @@
 ### start
 
-install nmp
-type in terminal: npm run dev
+- install nmp
+- type in terminal: npm run dev
 
 ### web
 
