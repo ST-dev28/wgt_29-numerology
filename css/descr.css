@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  /*background-color: rgba(220, 158, 245, 0.678);*/
+  background-color: rgba(220, 158, 245, 0.678);
   background-image: url(../img/planets.jpg);
   background-repeat: no-repeat;
   background-size: cover;
