@@ -1,0 +1,36 @@
+content {
+    background-color: rgb(4, 4, 4);
+}
+.navbar bg-dark  {
+    background-color: rgb(4, 4, 4);
+}
+
+h1  {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 35%;
+    color:rgb(255, 255, 255);
+    font-family: monospace;
+    font-style: italic;
+    font-size: 50px;
+    line-height: 152px;
+    line-height: 100%;
+}
+
+.bg .btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(199, 195, 195);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: monospace;
+    font-style: italic;
+    padding: 12px 38px;
+    border: none;
+    cursor: pointer;
+    border-radius: 24px;
+}
