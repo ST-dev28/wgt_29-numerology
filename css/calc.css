@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background-color: rgb(24, 1, 66);
+  /*background-color: rgb(24, 1, 66);*/
   background-image: url(../img/purple-space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
