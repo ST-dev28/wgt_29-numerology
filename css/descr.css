@@ -15,7 +15,7 @@ body {
   background-size: cover;
 }
 
-div {
+.descr {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -23,11 +23,34 @@ div {
   align-items: center;
 }
 
+.home {
+  display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+a {
+  color: rgb(0, 225, 255);
+  font-size: 20px;
+}
+
+a:hover {
+  color: violet;
+  font-style: italic;
+  text-decoration: none;
+}
+
 h2 {
     font-size: 36px;
     color: rgb(0, 225, 255);
     font-style: italic;
     text-align: center;
+    margin-top: 10px;
 }
 
 p {
