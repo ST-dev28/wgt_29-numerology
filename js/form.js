@@ -19,8 +19,8 @@ function validate() {
         error_message.innerHTML = text;
         return false;
     }
-    if (isNaN(phone) || phone.length != 12) {
-        text = "Please Enter valid Phone Number";
+    if (isNaN(phone) || phone.length != 12 || phone.indexOf("+") == -1) {
+        text = "Please Enter valid Phone Number (+code)";
         error_message.innerHTML = text;
         return false;
     }
@@ -29,8 +29,8 @@ function validate() {
         error_message.innerHTML = text;
         return false;
     }
-    if (message.length <= 60) {
-        text = "Please Enter More Than 60 Characters";
+    if (message.length <= 30) {
+        text = "Please Enter More Than 30 Characters";
         error_message.innerHTML = text;
         return false;
     }
