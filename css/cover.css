@@ -1,3 +1,4 @@
+
 body,
 html {
     height: 100%;
@@ -11,19 +12,16 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-        
-content {
-    background-color: rgb(4, 4, 4);
-}
-.navbar bg-dark  {
-    background-color: rgb(4, 4, 4);
+
+.navbar bg-dark {
+    background-color: black;
 }
 
 h1  {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 35%;
+    top: 20%;
     color:rgb(255, 255, 255);
     font-family: monospace;
     font-style: italic;
@@ -34,7 +32,7 @@ h1  {
 
 .bg .btn {
     position: absolute;
-    top: 90%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -47,4 +45,10 @@ h1  {
     border: none;
     cursor: pointer;
     border-radius: 24px;
+}
+
+.calculation {
+    position: absolute;
+    top: 90%;
+    left: 50%;
 }
