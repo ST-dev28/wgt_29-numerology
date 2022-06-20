@@ -2,6 +2,7 @@ body,
 html {
     height: 100%;
     margin:0;
+    
 }
 .calcImg {
     background-image: url(../img/descr2.jpg);
@@ -18,3 +19,21 @@ html {
     width: 100%;
     max-width: 600px;
 }
+
+a {
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-right: 20px;
+
+}
+
+a:hover{
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 26px;
+}
+

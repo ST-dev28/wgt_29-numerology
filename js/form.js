@@ -20,7 +20,7 @@ function validate() {
         return false;
     }
     if (isNaN(phone) || phone.length != 12 || phone.indexOf("+") == -1) {
-        text = "Please Enter valid Phone Number (+code)";
+        text = "Please Enter valid Phone Number";
         error_message.innerHTML = text;
         return false;
     }

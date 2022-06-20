@@ -16,19 +16,21 @@ body{
   
 }
 .home {
-  display: flex;
-    flex-direction: row;
-    justify-items: start;
-    align-items: flex-start;
-    align-content: flex-start;
-    justify-content: flex-end;
-    margin-top: 10px;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 a {
   color: whitesmoke;
   font-size: 20px;
+}
+
+a:nth-child(1) {
+  padding-top: 10px;
 }
 
 a:hover {
@@ -39,9 +41,6 @@ a:hover {
 
 .bg {
   height: 100vh;
-  background-image: url(../img/planets-few.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .wrapper{
