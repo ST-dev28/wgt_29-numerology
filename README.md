@@ -18,8 +18,8 @@ This project is for educational porpuses only.
 
 #### Authors
 
-[Sandra](https://github.com/ST-dev28)
-[Agnese](https://github.com/AgneseVilk)
+- [Sandra](https://github.com/ST-dev28)
+- [Agnese](https://github.com/AgneseVilk)
 
 #### screenshots
 
