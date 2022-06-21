@@ -9,8 +9,6 @@ This project is for educational porpuses only.
 
 [View_it](https://st-dev28.github.io/wgt_29-numerology/)
 
-Design: [Numerology]custom
-
 ### project features
 
 - responsive design
