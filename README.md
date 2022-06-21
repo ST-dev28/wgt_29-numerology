@@ -1,13 +1,29 @@
-### start
+![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)
+![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
+![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-- install nmp
-- type in terminal: npm run dev
+## Numerology
 
-### web
+This project is for educational porpuses only.
 
 [View_it](https://st-dev28.github.io/wgt_29-numerology/)
 
-### screenshots
+Design: [Numerology]custom
+
+### project features
+
+- responsive design
+- css animations
+- NodeJS
+- localStorage
+
+#### Authors
+
+[Sandra](https://github.com/ST-dev28)
+[Agnese](https://github.com/AgneseVilk)
+
+#### screenshots
 
 ![Screenshot](./img/printscr0.JPG)
 ![Screenshot](./img/printscr1.JPG)
