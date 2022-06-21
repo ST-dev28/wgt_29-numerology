@@ -13,6 +13,7 @@ body {
   background-image: url(../img/planets.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .descr {
