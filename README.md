@@ -7,7 +7,7 @@
 
 This project is for educational porpuses only.
 
-[View_it](https://st-dev28.github.io/wgt_29-numerology/)
+[View_the_project](https://st-dev28.github.io/wgt_29-numerology/)
 
 ### project features
 
